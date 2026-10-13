@@ -7,7 +7,6 @@ const App = () => {
       <h1>Welcome to React JS Class</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque velit eum error harum tempore. Perspiciatis illo tenetur accusamus, quos quasi praesentium quas non dolores magnam temporibus veritatis pariatur, quidem veniam!</p>
       <Basic></Basic>
-      <Basic/>
     </React.Fragment>
   )
 }
