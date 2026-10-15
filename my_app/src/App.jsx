@@ -1,12 +1,25 @@
 import React from "react"
 import Basic from "./Components/Basic"
+import ImageGallery from "./Components/ImageGallery/ImageGallery"
+import DisplayImages from "./Components/ImageGallery/DisplayImages"
+import Cards from "./Components/Cards/Cards"
 
 const App = () => {
   return (
     <React.Fragment>
-      <h1>Welcome to React JS Class</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque velit eum error harum tempore. Perspiciatis illo tenetur accusamus, quos quasi praesentium quas non dolores magnam temporibus veritatis pariatur, quidem veniam!</p>
-      <Basic></Basic>
+
+      {/* <h1>Welcome to React JS Class</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque velit eum error harum tempore. Perspiciatis illo tenetur accusamus, quos quasi praesentium quas non dolores magnam temporibus veritatis pariatur, quidem veniam!
+      </p> */}
+
+      {/* <Basic/> */}
+
+      {/* <ImageGallery/> */}
+      {/* <DisplayImages/> */}
+      <Cards/>
+      
+
     </React.Fragment>
   )
 }

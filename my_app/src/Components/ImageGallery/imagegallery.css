@@ -1,0 +1,53 @@
+.image-gallery{
+    .header{
+        text-align: center;
+        background-color: navy;
+        color: white;
+        padding: 2vh 0;
+    }
+    .boxes{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 5vh auto;
+        .box{
+            border: solid 1px black;
+            height: 65vh;
+            width: 320px;
+            box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 50%);
+            border-radius: 10px;
+            img{
+                width: 90%;
+                height: 50%;
+                margin: 1vh 1vw;
+                border-radius: 10px;
+
+            }
+            .title{
+                text-align: center;
+                font-weight: bold;
+                color: black;
+            }
+            p{
+
+                text-align: justify;
+                margin: 1vh 1vw;
+                
+            }
+            .btn{
+                margin: 2vh 6vw;
+                padding: 1vh 1vw;
+                width: 40%;
+                border-radius: 5px;
+                border: solid 1px navy;
+                background-color: white;
+                color: navy;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .btn:hover{
+                background-color: navy;
+                color: white;
+            }
+        }
+    }
+} 
