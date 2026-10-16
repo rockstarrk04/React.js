@@ -3,6 +3,7 @@ import Basic from "./Components/Basic"
 import ImageGallery from "./Components/ImageGallery/ImageGallery"
 import DisplayImages from "./Components/ImageGallery/DisplayImages"
 import Cards from "./Components/Cards/Cards"
+import Students from "./Components/StudentsData/Students"
 
 const App = () => {
   return (
@@ -14,10 +15,10 @@ const App = () => {
       </p> */}
 
       {/* <Basic/> */}
-
       {/* <ImageGallery/> */}
       {/* <DisplayImages/> */}
-      <Cards/>
+      {/* <Cards/> */}
+      <Students/>
       
 
     </React.Fragment>

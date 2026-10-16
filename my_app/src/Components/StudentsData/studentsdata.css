@@ -1,0 +1,34 @@
+.students{
+    h1{
+        text-align: center;
+        padding: 2vh 0;
+        background-color: rgb(56, 162, 170);
+    }
+    .container{
+        height: 80%;
+        width: 80%;
+        background-color: yellow;
+        margin: 10vh auto;
+        table{
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            border: solid 1px black;
+            thead , tbody {
+                th{
+                    background-color: blue;
+                }
+                tr{
+                    height: 50px;
+                    border-bottom: solid 1px black;
+                }
+                td{
+                    border-bottom: solid 1px black;
+                }
+                
+                padding: 5vh 2vh;
+            }
+        }
+    }
+}
