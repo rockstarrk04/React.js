@@ -1,0 +1,22 @@
+.emp {
+    text-align: center;
+    .display {
+        .container {
+            table {
+                width: 80%;
+                margin: 30px auto;
+                border: 1px solid #333;
+                border-collapse: collapse;
+
+                thead {
+                    color: white;
+                    background-color: rgb(5, 80, 80);
+                }
+                th,td {
+                    padding: 10px;
+                    border: 1px solid black;
+                }
+            }
+        }
+    }
+}

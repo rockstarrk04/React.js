@@ -5,6 +5,7 @@ import DisplayImages from "./Components/ImageGallery/DisplayImages"
 import Cards from "./Components/Cards/Cards"
 import Students from "./Components/StudentsData/Students"
 import ReactEvents from "./Components/Events/ReactEvents"
+import Employees from "./Components/Employees/Employees"
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
       {/* <DisplayImages/> */}
       {/* <Cards/> */}
       {/* <Students/> */}
-      <ReactEvents/>
+      {/* <ReactEvents/> */}
+      <Employees/>
       
 
     </React.Fragment>
