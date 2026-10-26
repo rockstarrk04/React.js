@@ -6,6 +6,8 @@ import Cards from "./Components/Cards/Cards"
 import Students from "./Components/StudentsData/Students"
 import ReactEvents from "./Components/Events/ReactEvents"
 import Employees from "./Components/Employees/Employees"
+import Parent from "./Components/Props/Parent"
+import Acomp from "./Components/PropsDriling/Acomp"
 
 const App = () => {
   return (
@@ -22,8 +24,9 @@ const App = () => {
       {/* <Cards/> */}
       {/* <Students/> */}
       {/* <ReactEvents/> */}
-      <Employees/>
-      
+      {/* <Parent/> */}
+      {/* <Employees/> */}
+      <Acomp/>
 
     </React.Fragment>
   )

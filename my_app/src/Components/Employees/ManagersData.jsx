@@ -5,7 +5,7 @@ const ManagersData = (props) => {
     let {onlyManagers} = props    
 
     return(
-        <>
+        <> 
             <div className="display">
                 <h2>Managers Data</h2>
                 <div className="container">
