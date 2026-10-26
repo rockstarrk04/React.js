@@ -8,6 +8,7 @@ import ReactEvents from "./Components/Events/ReactEvents"
 import Employees from "./Components/Employees/Employees"
 import Parent from "./Components/Props/Parent"
 import Acomp from "./Components/PropsDriling/Acomp"
+import UpdateName from "./Components/Hooks/UseState/UpdateName"
 
 const App = () => {
   return (
@@ -26,7 +27,8 @@ const App = () => {
       {/* <ReactEvents/> */}
       {/* <Parent/> */}
       {/* <Employees/> */}
-      <Acomp/>
+      {/* <Acomp/> */}
+      <UpdateName/>
 
     </React.Fragment>
   )
