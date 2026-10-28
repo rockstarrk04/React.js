@@ -9,6 +9,12 @@ import Employees from "./Components/Employees/Employees"
 import Parent from "./Components/Props/Parent"
 import Acomp from "./Components/PropsDriling/Acomp"
 import UpdateName from "./Components/Hooks/UseState/UpdateName"
+import CounterApp from "./Components/Hooks/UseState/CounterApp"
+import Timer from "./Components/Hooks/UseState/Timer"
+import ToggleBtn from "./Components/Hooks/UseState/ToggleBtn"
+import TogglePara from "./Components/Hooks/UseState/TogglePara"
+import OneCard from "./Components/Hooks/UseState/ToggleCard/OneCard"
+import ToggleCard from "./Components/Hooks/UseState/ToggleCard/ToggleCard"
 
 const App = () => {
   return (
@@ -28,7 +34,14 @@ const App = () => {
       {/* <Parent/> */}
       {/* <Employees/> */}
       {/* <Acomp/> */}
-      <UpdateName/>
+      {/* <UpdateName/> */}
+      {/* <CounterApp/> */}
+      {/* <Timer/> */}
+      {/* <ToggleBtn/> */}
+      {/* <TogglePara/> */}
+      {/* <OneCard/> */}
+      <ToggleCard/>
+      
 
     </React.Fragment>
   )

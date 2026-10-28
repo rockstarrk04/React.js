@@ -22,30 +22,31 @@ const UpdateName = () => {
     <>
       <center>
         <h1>Hooks : useState </h1>
-        <h2>Update Name</h2> <br /><br /><br /><br />
+        <h2>Update Name</h2> <br /><br /><hr /><br /><br />
 
-        <h1>{name}</h1>
-        <br />
+      <div className="box">
+        <h1>{name}</h1><br />
         <button onClick={handleClick}>
           Click Here
         </button>
+      </div>
         
 
 
         <br /><br />
+      <div className="box">
         <h1>I love {name1}</h1>
         <button onClick={handleClick1}>
           Click here
         </button>
-        <br /><br />
+      </div>
 
-
-        <br /><br /><br /><hr /><br /><br />
+      <br /><br />
         
-        <div className="box">
-          <button onClick={handlepara}>Display Para</button>
-          <p>{para}</p>
-        </div>
+      <div className="box">
+        <button onClick={handlepara}>Display Para</button>
+        <p>{para}</p>
+      </div>
 
 
 

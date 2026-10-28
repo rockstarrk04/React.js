@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.tg-btn{
+    .on{
+        color: green;
+        border: solid 2px green;
+    }
+    .off{
+        color: red;
+        border: solid 2px red;
+    }
+}
