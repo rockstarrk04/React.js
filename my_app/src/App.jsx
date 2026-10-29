@@ -15,6 +15,9 @@ import ToggleBtn from "./Components/Hooks/UseState/ToggleBtn"
 import TogglePara from "./Components/Hooks/UseState/TogglePara"
 import OneCard from "./Components/Hooks/UseState/ToggleCard/OneCard"
 import ToggleCard from "./Components/Hooks/UseState/ToggleCard/ToggleCard"
+import Example1 from "./Components/Hooks/UseState/UseRef/Example1"
+import InputField from "./Components/Hooks/UseState/UseRef/InputField"
+import FormData from "./Components/Hooks/UseState/UseRef/FormData"
 
 const App = () => {
   return (
@@ -34,13 +37,19 @@ const App = () => {
       {/* <Parent/> */}
       {/* <Employees/> */}
       {/* <Acomp/> */}
+
+        {/************** UseState ****************/}
+
       {/* <UpdateName/> */}
       {/* <CounterApp/> */}
       {/* <Timer/> */}
       {/* <ToggleBtn/> */}
       {/* <TogglePara/> */}
       {/* <OneCard/> */}
-      <ToggleCard/>
+      {/* <ToggleCard/> */}
+      {/* <Example1/> */}
+      {/* <InputField/> */}
+      <FormData/>
       
 
     </React.Fragment>
