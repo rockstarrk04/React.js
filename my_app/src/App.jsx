@@ -18,6 +18,7 @@ import ToggleCard from "./Components/Hooks/UseState/ToggleCard/ToggleCard"
 import Example1 from "./Components/Hooks/UseState/UseRef/Example1"
 import InputField from "./Components/Hooks/UseState/UseRef/InputField"
 import FormData from "./Components/Hooks/UseState/UseRef/FormData"
+import Products from "./Components/Products/Products"
 
 const App = () => {
   return (
@@ -49,7 +50,8 @@ const App = () => {
       {/* <ToggleCard/> */}
       {/* <Example1/> */}
       {/* <InputField/> */}
-      <FormData/>
+      {/* <FormData/> */}
+      <Products/>
       
 
     </React.Fragment>
