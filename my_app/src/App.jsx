@@ -19,6 +19,8 @@ import Example1 from "./Components/Hooks/UseState/UseRef/Example1"
 import InputField from "./Components/Hooks/UseState/UseRef/InputField"
 import FormData from "./Components/Hooks/UseState/UseRef/FormData"
 import Products from "./Components/Products/Products"
+import UseEffectExample from "./Components/Hooks/UseState/UseEffect/UseEffectExample"
+import ConditionalRendering from "./Components/ConditionalRendering/ConditionalRendering"
 
 const App = () => {
   return (
@@ -51,8 +53,10 @@ const App = () => {
       {/* <Example1/> */}
       {/* <InputField/> */}
       {/* <FormData/> */}
-      <Products/>
-      
+      {/* <Products/> */}
+
+      {/* <UseEffectExample/> */}
+      <ConditionalRendering/>
 
     </React.Fragment>
   )
