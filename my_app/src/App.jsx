@@ -1,26 +1,5 @@
 import React from "react"
-import Basic from "./Components/Basic"
-import ImageGallery from "./Components/ImageGallery/ImageGallery"
-import DisplayImages from "./Components/ImageGallery/DisplayImages"
-import Cards from "./Components/Cards/Cards"
-import Students from "./Components/StudentsData/Students"
-import ReactEvents from "./Components/Events/ReactEvents"
-import Employees from "./Components/Employees/Employees"
-import Parent from "./Components/Props/Parent"
-import Acomp from "./Components/PropsDriling/Acomp"
-import UpdateName from "./Components/Hooks/UseState/UpdateName"
-import CounterApp from "./Components/Hooks/UseState/CounterApp"
-import Timer from "./Components/Hooks/UseState/Timer"
-import ToggleBtn from "./Components/Hooks/UseState/ToggleBtn"
-import TogglePara from "./Components/Hooks/UseState/TogglePara"
-import OneCard from "./Components/Hooks/UseState/ToggleCard/OneCard"
-import ToggleCard from "./Components/Hooks/UseState/ToggleCard/ToggleCard"
-import Example1 from "./Components/Hooks/UseState/UseRef/Example1"
-import InputField from "./Components/Hooks/UseState/UseRef/InputField"
-import FormData from "./Components/Hooks/UseState/UseRef/FormData"
-import Products from "./Components/Products/Products"
-import UseEffectExample from "./Components/Hooks/UseState/UseEffect/UseEffectExample"
-import ConditionalRendering from "./Components/ConditionalRendering/ConditionalRendering"
+import CompA from "./Components/Hooks/UseContext/CompA"
 
 const App = () => {
   return (
@@ -57,6 +36,7 @@ const App = () => {
 
       {/* <UseEffectExample/> */}
       {/* <ConditionalRendering/> */}
+      <CompA/>
 
     </React.Fragment>
   )
