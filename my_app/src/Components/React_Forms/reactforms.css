@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.react-forms{
+    h2{
+        background-color: navy;
+        text-align: center;
+        color: white;
+        padding: 2vh 0;
+    }
+    .formbox{
+        border: solid 1px black;
+        width: 35%;
+        margin: 10vh auto;
+        box-shadow: 7px 5px navy;
+        border-radius: 10px;
+        h3{
+            text-align: start;
+            padding: 1.5vh 1vw;
+        }
+        form{
+            input , button{
+                display: block;
+                margin: 3vh auto;
+                padding: 1.5vh 1vw;
+            }
+            input{
+                width: 50%;
+            }
+            button{
+                width: 25%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:900px) {
+    .react-forms{
+        .formbox{
+            width: 70%;
+
+        }
+    }
+}

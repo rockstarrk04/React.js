@@ -1,5 +1,7 @@
 import React from "react"
 import CompA from "./Components/Hooks/UseContext/CompA"
+import UncontrolledReactForm1 from "./Components/React_Forms/Uncontrolled/UncontrolledReactForm1"
+import UncontrolledReactForm2 from "./Components/React_Forms/Uncontrolled/UncontrolledReactForm2"
 
 const App = () => {
   return (
@@ -36,7 +38,9 @@ const App = () => {
 
       {/* <UseEffectExample/> */}
       {/* <ConditionalRendering/> */}
-      <CompA/>
+      {/* <CompA/> */}
+      {/* <UncontrolledReactForm1/> */}
+      <UncontrolledReactForm2/>
 
     </React.Fragment>
   )
